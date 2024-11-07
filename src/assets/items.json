@@ -1,5 +1,10 @@
 [
   {
+    "name": "Rack",
+    "value": "1549,30",
+    "pic": "./src/assets/rack.jpg"
+  },
+  {
     "name": "Fogão",
     "value": "1500,00",
     "pic": "./src/assets/item1.jpg"
@@ -22,6 +27,26 @@
   {
     "name": "Mopa",
     "value": "5500,00",
+    "pic": "./src/assets/item1.jpg"
+  },
+  {
+    "name": "Monster",
+    "value": "6500,00",
+    "pic": "./src/assets/item1.jpg"
+  },
+  {
+    "name": "Monster",
+    "value": "6500,00",
+    "pic": "./src/assets/item1.jpg"
+  },
+  {
+    "name": "Monster",
+    "value": "6500,00",
+    "pic": "./src/assets/item1.jpg"
+  },
+  {
+    "name": "Monster",
+    "value": "6500,00",
     "pic": "./src/assets/item1.jpg"
   },
   {

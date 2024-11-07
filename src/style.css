@@ -1,0 +1,14 @@
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo opaco */
+    z-index: 1040; /* Z-index menor que o modal */
+  }
+  
+  /* Garanta que o modal esteja acima do backdrop */
+  .modal.show {
+    z-index: 1050;
+  }

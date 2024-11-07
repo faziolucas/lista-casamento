@@ -1,4 +1,4 @@
-import { useState } from "react";
+import PixButton from "./PixButton";
 
 interface Props {
   name: string;
@@ -7,41 +7,9 @@ interface Props {
 }
 
 function CardGroup({ props }: { props: Props[] }) {
-  let items = ["Fogão", "Geladeira", "Maquina de Lavar", "Televisão", "Mopa"];
-  const message = items.length === 0 ? <p>Nenhum presente encontrado</p> : null;
-  const [selectedIndex, setSelectedIndex] = useState(-1);
-
-  /*
-  return (
-    <>
-      <h1>Lista de Presentes</h1>
-      {message}
-      <div className="container">
-        <div className="row">
-          {props.map((prop, index) => (
-            <div key={index} className="col-md-4 mb-4">
-              <div className="card" style={{ width: "18rem" }}>
-                <img src={prop.pic} className="card-img-top" alt={prop.name} />
-                <div className="card-body">
-                  <h5 className="card-title">{prop.name}</h5>
-                  <p className="card-text">{"R$ ".concat(prop.value)}</p>
-                  <a href="#" className="btn btn-primary">
-                    Presentear
-                  </a>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    </>
-  );
-  */
-
   return (
     <>
       <h1 className="text-center my-4">Lista de Presentes</h1>
-      {message}
       <div className="container">
         <div className="row">
           {props.map((prop, index) => (
@@ -58,9 +26,10 @@ function CardGroup({ props }: { props: Props[] }) {
                   <p className="card-text text-center text-muted">
                     {"R$ " + prop.value}
                   </p>
-                  <a href="#" className="btn btn-primary mt-auto">
-                    Presentear
-                  </a>
+                  <PixButton
+                    name={prop.name}
+                    value={+prop.value.replace(",", ".")}
+                  ></PixButton>
                 </div>
               </div>
             </div>
