@@ -42,7 +42,12 @@ function PixButton(pixButtonProps: PixButtonProps) {
 
   return (
     <>
-      <a href="#" className="btn btn-primary mt-auto" onClick={handleOpenModal}>
+      <a
+        href="#"
+        className="btn btn-primary mt-auto"
+        style={{ backgroundColor: "#205843" }}
+        onClick={handleOpenModal}
+      >
         Presentear!
       </a>
 

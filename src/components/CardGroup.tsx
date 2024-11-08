@@ -17,7 +17,10 @@ function CardGroup({ props }: { props: Props[] }) {
               key={index}
               className="col-md-4 mb-4 d-flex justify-content-center"
             >
-              <div className="card shadow-sm h-100" style={{ width: "18rem" }}>
+              <div
+                className="card shadow-sm h-100"
+                style={{ width: "18rem", backgroundColor: "#effffb" }}
+              >
                 <img
                   src={prop.pic}
                   className="card-img-top"
