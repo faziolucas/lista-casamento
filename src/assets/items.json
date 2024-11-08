@@ -1,6 +1,11 @@
 [
   {
     "name": "Rack",
+    "value": "1,00",
+    "pic": "./src/assets/rack.jpg"
+  },
+  {
+    "name": "Rack",
     "value": "1549,30",
     "pic": "./src/assets/rack.jpg"
   },
