@@ -1,5 +1,3 @@
-import React from "react";
-
 function Map() {
   return (
     <div className="container my-5">
@@ -18,8 +16,8 @@ function Map() {
           García, 327, Jardim Boa Esperança, <b>Alfenas - MG</b>
         </p>
         <p className="text-muted">
-          Fique a vontade de entrar em contato conosco a respeito de qualquer
-          dúvida a respeito da localização.
+          Fique a vontade para entrar em contato conosco a respeito de qualquer
+          dúvida sobre a localização.
         </p>
         <br></br>
         <p className="text-muted">
@@ -27,7 +25,6 @@ function Map() {
         </p>
       </div>
 
-      {/* Seção do mapa */}
       <div className="row justify-content-center">
         <div className="col-12 col-md-10 col-lg-8">
           <div className="embed-responsive embed-responsive-16by9 rounded shadow-lg">

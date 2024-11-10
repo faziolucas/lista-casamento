@@ -9,7 +9,13 @@ interface Props {
 function CardGroup({ props }: { props: Props[] }) {
   return (
     <>
-      <h1 className="text-center my-4">Lista de Presentes</h1>
+      <div className="text-center m-4">
+        <h2 className="fw-bold">Sugestões de presentes</h2>
+        <p className="text-muted">*Imagens meramente ilustrativas</p>
+        <p className="text-muted">
+          <b>Confira:</b>
+        </p>
+      </div>
       <div className="container">
         <div className="row justify-content-center">
           {props.map((prop, index) => (

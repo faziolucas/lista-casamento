@@ -1,7 +1,7 @@
 function Hero() {
   return (
     <div
-      className="p-5 text-center bg-image rounded-3 position-relative"
+      className="p-5 text-center bg-image rounded-1 position-relative"
       style={{
         backgroundImage: "url(./src/assets/hero.jpg)",
         backgroundSize: "cover",
@@ -20,7 +20,7 @@ function Hero() {
       >
         <div className="d-flex justify-content-center align-items-center h-100">
           <div className="text-white">
-            <h1 className="mb-3">Assucena e Lucas</h1>
+            <h1 className="display-1 mb-3">Assucena e Lucas</h1>
             <h4 className="mb-3">Vão se casar!</h4>
           </div>
         </div>

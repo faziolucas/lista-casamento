@@ -5,7 +5,7 @@ import Hero from "./components/Hero";
 
 function App() {
   return (
-    <div style={{ backgroundColor: "#fef9ff", minHeight: "100vh" }}>
+    <div style={{ backgroundColor: "#fffeed", minHeight: "100vh" }}>
       <Hero></Hero>
       <CardGroup props={items} />
       <Map></Map>
