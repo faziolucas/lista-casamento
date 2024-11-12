@@ -20,7 +20,7 @@ function Hero() {
       >
         <div className="d-flex justify-content-center align-items-center h-100">
           <div className="text-white">
-            <h1 className="display-1 mb-3">Assucena e Lucas</h1>
+            <h1 className="display-1 fw-bolder mb-3">Assucena e Lucas</h1>
             <h4 className="mb-3">Vão se casar!</h4>
           </div>
         </div>

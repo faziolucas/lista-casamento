@@ -2,6 +2,7 @@ import CardGroup from "./components/CardGroup";
 import Map from "./components/Map";
 import items from "./assets/items.json";
 import Hero from "./components/Hero";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Hero></Hero>
       <CardGroup props={items} />
       <Map></Map>
+      <Footer></Footer>
     </div>
   );
 }
