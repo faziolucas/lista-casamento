@@ -2,76 +2,76 @@
   {
     "name": "Monster Energy Drink (24 un)",
     "value": "172,80",
-    "pic": "./src/assets/monster.jpg"
+    "pic": "/assets/monster.jpg"
   },
   {
     "name": "Faqueiro Tramontina Laguna Aço Inox",
     "value": "207,00",
-    "pic": "./src/assets/faqueiro.jpg"
+    "pic": "/assets/faqueiro.jpg"
   },
   {
     "name": "Jogo De Jantar 24 Peças",
     "value": "242,91",
-    "pic": "./src/assets/loucas.webp"
+    "pic": "/assets/loucas.webp"
   },
   {
     "name": "Jogo de Panelas Tramontina Turim",
     "value": "309,00",
-    "pic": "./src/assets/panelas.jpg"
+    "pic": "/assets/panelas.jpg"
   },
   {
     "name": "Air Fryer Oven Philco",
     "value": "459,90",
-    "pic": "./src/assets/airfryer.webp"
+    "pic": "/assets/airfryer.webp"
   },
   {
     "name": "Panela de pressão Elétrica Electrolux",
     "value": "483,11",
-    "pic": "./src/assets/pressao.jpg"
+    "pic": "/assets/pressao.jpg"
   },
   {
     "name": "Panificadora Automática Master Bread Mondial",
     "value": "508,00",
-    "pic": "./src/assets/pao.jpg"
+    "pic": "/assets/pao.jpg"
   },
   {
     "name": "Forno Elétrico Fischer 44L",
     "value": "517,44",
-    "pic": "./src/assets/forno.jpg"
+    "pic": "/assets/forno.jpg"
   },
   {
     "name": "Monster Energy Drink (72 un)",
     "value": "518,40",
-    "pic": "./src/assets/monsters.jpg"
+    "pic": "/assets/monsters.jpg"
   },
   {
     "name": "Cabeceira Extensível com 2 Mesas de Cabeceira",
     "value": "613,79",
-    "pic": "./src/assets/cabeceira.jpg"
+    "pic": "/assets/cabeceira.jpg"
   },
   {
     "name": "Purificador de Água Consul",
     "value": "749,90",
-    "pic": "./src/assets/agua.jpg"
+    "pic": "/assets/agua.jpg"
   },
   {
     "name": "1x parcela do focão",
     "value": "1115,97",
-    "pic": "./src/assets/focao.jpg"
+    "pic": "/assets/focao.jpg"
   },
   {
     "name": "Soundbar JBL Cinema JB180",
     "value": "1119,00",
-    "pic": "./src/assets/home.jpg"
+    "pic": "/assets/home.jpg"
   },
   {
     "name": "Rack",
     "value": "1549,30",
-    "pic": "./src/assets/rack.jpg"
+    "pic": "/assets/rack.jpg"
   },
   {
     "name": "Fogão Brastemp 5 Bocas",
     "value": "1859,00",
-    "pic": "./src/assets/fogao.jpg"
+    "pic": "/assets/fogao.jpg"
   }
 ]

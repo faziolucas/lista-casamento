@@ -3,7 +3,7 @@ function Hero() {
     <div
       className="p-5 text-center bg-image rounded-1 position-relative"
       style={{
-        backgroundImage: "url(./src/assets/hero.jpg)",
+        backgroundImage: "url(/assets/hero.jpg)",
         backgroundSize: "cover",
         backgroundPosition: "center",
         height: "400px",
