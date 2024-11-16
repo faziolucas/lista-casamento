@@ -11,7 +11,9 @@ function CardGroup({ props }: { props: Props[] }) {
     <>
       <div className="text-center m-4">
         <h2 className="fw-bold">Sugestões de presentes</h2>
-        <p className="text-muted">*Imagens meramente ilustrativas</p>
+        <p className="text-muted">
+          Cada item ilustra coisas que realmente estamos precisando
+        </p>
         <p className="text-muted">
           <b>Confira:</b>
         </p>
