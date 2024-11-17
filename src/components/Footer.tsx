@@ -15,10 +15,11 @@ function Footer() {
         </div>
 
         <div
-          className="d-flex justify-content-center align-items-center p-3"
+          className="d-flex flex-column justify-content-center align-items-center p-3"
           style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
         >
           <span>© {currentYear} Copyright: Lucão front-end kkkkkkkkj</span>
+          <span style={{ marginTop: "5px", fontSize: "14px" }}>❤️❤️❤️❤️</span>
         </div>
       </footer>
     </section>
